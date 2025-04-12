@@ -1,0 +1,43 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.app-container {
+  display: flex;
+}
+.headerSection {
+  position: relative;
+  width: 80vw;
+}
+
+.sideBar {
+  min-height: 100vh;
+}
+
+.postlist-container {
+  display: flex;
+  gap: 0.3vw;
+  flex-wrap: wrap;
+}
+
+.createPost {
+  background: #d3d1d1;
+  padding: 2% 10%;
+  width: 80%;
+  margin: auto;
+  min-height: 100vh;
+}
+.welcomeMessage {
+  text-align: center;
+  margin: 50px auto;
+}
+
+.createPost .heading {
+  letter-spacing: 2.5px;
+  word-spacing: 10px;
+}
+.alertMessage {
+  left: 25%;
+}
